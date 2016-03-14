@@ -1,0 +1,34 @@
+{
+  "name": "md-urls",
+  "version": "0.0.1",
+  "description": "Replace relative links in markdown file with absolute urls based on a base url.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "markdown",
+    "absolute",
+    "wiki",
+    "relative",
+    "base",
+    "string",
+    "gfmd",
+    "html"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abhisekp/md-urls.git"
+  },
+  "maintainers": [{
+    "name": "abhisekp",
+    "email": "abhisekp@engineer.com"
+  }],
+  "bugs": {
+    "url": "https://github.com/abhisekp/md-urls/issues"
+  },
+  "homepage": "https://github.com/abhisekp/md-urls",
+  "author": "Abhisek Pattnaik <abhisekp@engineer.com> (http://about.me/abhisekp)",
+  "license": "MIT"
+}
