@@ -1,6 +1,6 @@
 {
   "name": "md-urls",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Replace relative links in markdown file with absolute urls based on a base url.",
   "main": "index.js",
   "scripts": {
