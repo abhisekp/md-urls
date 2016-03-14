@@ -22,14 +22,20 @@
     "type": "git",
     "url": "https://github.com/abhisekp/md-urls.git"
   },
-  "maintainers": [{
-    "name": "abhisekp",
-    "email": "abhisekp@engineer.com"
-  }],
+  "maintainers": [
+    {
+      "name": "abhisekp",
+      "email": "abhisekp@engineer.com"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/abhisekp/md-urls/issues"
   },
   "homepage": "https://github.com/abhisekp/md-urls",
   "author": "Abhisek Pattnaik <abhisekp@engineer.com> (http://about.me/abhisekp)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^2.4.0",
+    "eslint-config-airbnb": "^6.1.0"
+  }
 }
