@@ -1,6 +1,6 @@
 {
   "name": "md-urls",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Replace relative links in markdown file with absolute urls based on a base url.",
   "main": "index.js",
   "scripts": {
@@ -14,9 +14,8 @@
     "relative",
     "base",
     "string",
-    "ghfm",
-    "html",
-    "url"
+    "gfmd",
+    "html"
   ],
   "repository": {
     "type": "git",
