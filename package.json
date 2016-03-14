@@ -14,8 +14,9 @@
     "relative",
     "base",
     "string",
-    "gfmd",
-    "html"
+    "ghfm",
+    "html",
+    "url"
   ],
   "repository": {
     "type": "git",
