@@ -1,0 +1,10 @@
+{
+	"plugins": [
+		"transform-es2015-destructuring",
+		"transform-es2015-block-scoping",
+		"transform-async-to-generator",
+		"syntax-async-functions",
+		"syntax-async-generators",
+		"transform-es2015-modules-umd"
+	]
+}
