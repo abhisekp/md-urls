@@ -6,5 +6,7 @@
 		"syntax-async-functions",
 		"syntax-async-generators",
 		"transform-es2015-modules-umd"
-	]
+	],
+	"ignore": ["*.min.js"],
+	"sourceMaps": "both"
 }
