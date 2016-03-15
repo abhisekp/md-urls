@@ -29,5 +29,9 @@
     },
     "ecmaFeatures": {
         "modules": true
+    },
+    "global": {
+        "logger": true,
+        "log4js": true
     }
 }
