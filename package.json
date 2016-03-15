@@ -4,7 +4,8 @@
   "description": "Replace relative links in markdown file with absolute urls based on a base url.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --es_staging index.js"
   },
   "keywords": [
     "github",
