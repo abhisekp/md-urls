@@ -1,1 +1,2 @@
-console.log('Works!');
+import './lib/Console';
+import './lib/app';
