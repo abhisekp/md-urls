@@ -33,5 +33,6 @@
     "global": {
         "logger": true,
         "log4js": true
-    }
+    },
+    "parser": "babel-eslint"
 }
