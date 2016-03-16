@@ -30,7 +30,7 @@
     "ecmaFeatures": {
         "modules": true
     },
-    "global": {
+    "globals": {
         "logger": true,
         "log4js": true
     },
