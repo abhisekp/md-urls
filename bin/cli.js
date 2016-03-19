@@ -1,1 +1,3 @@
-#!/usr/bin/env node
+#!/usr/bin/env babel-node
+
+import * as commander from 'commander';
