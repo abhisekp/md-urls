@@ -46,6 +46,7 @@ jspm_packages
 # Don't ignore .sh files in bin/ directory but ignore _local.sh files
 !/bin/*.sh
 /bin/*_local.sh
+!/bin/*.js
 
 # Specific file rules
 !.gitkeep
