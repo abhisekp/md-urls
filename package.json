@@ -54,6 +54,8 @@
     "babel-preset-es2017": "^1.1.0",
     "babel-preset-stage-0": "^6.5.0",
     "chalk": "^1.1.1",
-    "log4js": "^0.6.33"
+    "log4js": "^0.6.33",
+    "remark": "^4.1.2",
+    "unist-util-visit": "^1.0.1"
   }
 }
