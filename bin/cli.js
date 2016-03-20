@@ -1,8 +1,9 @@
 #!/usr/bin/env babel-node
+/* eslint no-console: 0 */
 
 'use strict';
 
-import { commander as program } from 'commander';
+import { yargs as args } from 'yargs';
 import promisify from 'promisify-lite';
 import fs from 'graceful-fs';
 import path from 'path';
@@ -25,8 +26,7 @@ const getPackageFile = () => {
       packageFileContent = await fsp.readFileAsync(PACKAGE_PATH, 'utf-8');
     }
 
-    cliLog.info(`Typeof fileContent: ${typeof packageFileContent}`); // <--- string
-    cliLog.info(`Package file content:\n${packageFileContent}`);
+    log.info(`Package file content:\n${packageFileContent}`);
 
     return packageFileContent;
   })();
@@ -34,7 +34,7 @@ const getPackageFile = () => {
 
 const getVersion = async () => {
   const VERSION = json5.parse(await getPackageFile()).version;
-  cliLog.info(`VERSION: ${VERSION}`);
+  log.info(`VERSION: ${VERSION}`);
   return VERSION;
 };
 
