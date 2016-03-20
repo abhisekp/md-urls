@@ -2,7 +2,7 @@
 
 'use strict';
 
-import * as program from 'commander';
+import { commander as program } from 'commander';
 import promisify from 'promisify-lite';
 import * as fs from 'fs';
 import * as path from 'path';
