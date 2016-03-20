@@ -4,17 +4,18 @@
 
 import { commander as program } from 'commander';
 import promisify from 'promisify-lite';
-import * as fs from 'fs';
-import * as path from 'path';
+import fs from 'graceful-fs';
+import path from 'path';
 import log4js from 'log4js';
 import json5 from 'json5';
+import appRoot from 'app-root-path';
 
 fs = promisify(fs);
 
 const cliLog = log4js.getLogger('CLI LOGGER');
 
 const getPackageFile = () => {
-  const PACKAGE_PATH = path.resolve('./package.json');
+  const PACKAGE_PATH = path.resolve(`${appRoot}/package.json`);
   cliLog.debug(`Package Path: ${PACKAGE_PATH}`);
 
   let packageFileContent = null;
