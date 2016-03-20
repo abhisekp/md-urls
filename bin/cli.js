@@ -10,7 +10,7 @@ import log4js from 'log4js';
 import json5 from 'json5';
 import appRoot from 'app-root-path';
 
-fs = promisify(fs);
+const fsp = promisify(fs);
 
 const cliLog = log4js.getLogger('CLI LOGGER');
 
@@ -22,11 +22,11 @@ const getPackageFile = () => {
 
   return (async () => {
     if (!packageFileContent) {
-      packageFileContent = await fs.readFileAsync(PACKAGE_PATH, 'utf-8');
+      packageFileContent = await fsp.readFileAsync(PACKAGE_PATH, 'utf-8');
     }
 
     cliLog.info(`Typeof fileContent: ${typeof packageFileContent}`); // <--- string
-    cliLog.debug(`Package file content:\n${packageFileContent}`);
+    cliLog.info(`Package file content:\n${packageFileContent}`);
 
     return packageFileContent;
   })();
