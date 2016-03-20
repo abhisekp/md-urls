@@ -12,11 +12,11 @@ import appRoot from 'app-root-path';
 
 const fsp = promisify(fs);
 
-const cliLog = log4js.getLogger('CLI LOGGER');
+const log = log4js.getLogger('CLI LOGGER');
 
 const getPackageFile = () => {
   const PACKAGE_PATH = path.resolve(`${appRoot}/package.json`);
-  cliLog.debug(`Package Path: ${PACKAGE_PATH}`);
+  log.debug(`Package Path: ${PACKAGE_PATH}`);
 
   let packageFileContent = null;
 
