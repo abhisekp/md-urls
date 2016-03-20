@@ -34,7 +34,8 @@ const getPackageFile = () => {
 
 const getVersion = async () => {
   const VERSION = json5.parse(await getPackageFile()).version;
-  cliLog.debug('VERSION: ', VERSION);
+  cliLog.info(`VERSION: ${VERSION}`);
+  return VERSION;
 };
 
 getVersion();
