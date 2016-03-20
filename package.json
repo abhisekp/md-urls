@@ -1,6 +1,6 @@
 {
   "name": "md-urls",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Replace relative links in markdown file with absolute urls based on a base url.",
   "main": "index.js",
   "scripts": {
@@ -14,21 +14,28 @@
     "relative",
     "base",
     "string",
-    "gfmd",
-    "html"
+    "ghfm",
+    "html",
+    "url"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/abhisekp/md-urls.git"
   },
-  "maintainers": [{
-    "name": "abhisekp",
-    "email": "abhisekp@engineer.com"
-  }],
+  "maintainers": [
+    {
+      "name": "abhisekp",
+      "email": "abhisekp@engineer.com"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/abhisekp/md-urls/issues"
   },
   "homepage": "https://github.com/abhisekp/md-urls",
   "author": "Abhisek Pattnaik <abhisekp@engineer.com> (http://about.me/abhisekp)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^2.4.0",
+    "eslint-config-airbnb": "^6.1.0"
+  }
 }
