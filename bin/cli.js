@@ -38,4 +38,7 @@ const getVersion = async () => {
   return VERSION;
 };
 
-getVersion();
+const init = async () => {
+};
+
+init();
