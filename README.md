@@ -1,3 +1,4 @@
+<a name="app-top" id="app-top"></a>
 # Markdown URLs &mdash; md-urls
 
 Replace relative links in markdown file with absolute urls based on a base url.
@@ -20,5 +21,5 @@ Chat with <kbd><a href="https://gitter.im/abhisekp">
 > ----
 
 <div align="right">
-<kbd><a href="#test-npm-app-top"><b>⮬ back to top</b></a></kbd>
+<kbd><a href="#app-top"><b>⮬ back to top</b></a></kbd>
 </div>
