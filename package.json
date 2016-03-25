@@ -45,7 +45,8 @@
     "eslint": "^2.4.0",
     "eslint-config-airbnb": "^6.1.0",
     "rollup": "^0.25.4",
-    "rollup-plugin-babel": "^2.4.0"
+    "rollup-plugin-babel": "^2.4.0",
+    "tape": "^4.5.1"
   },
   "dependencies": {
     "app-root-path": "^1.0.0",
@@ -67,6 +68,7 @@
     "console-highlight": "^0.1.0",
     "dedent": "^0.6.0",
     "get-env": "^0.4.0",
+    "glob": "^7.0.3",
     "graceful-fs": "^4.1.3",
     "json5": "^0.5.0",
     "log4js": "^0.6.33",
