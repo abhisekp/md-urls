@@ -5,7 +5,8 @@
 		"transform-async-to-generator",
 		"syntax-async-functions",
 		"syntax-async-generators",
-		"transform-es2015-modules-umd"
+		"transform-es2015-modules-umd",
+		"transform-es2015-parameters"
 	],
 	"ignore": ["*.min.js"],
 	"sourceMaps": "both"
