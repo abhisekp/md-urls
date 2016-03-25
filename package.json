@@ -38,5 +38,8 @@
     "eslint": "^2.4.0",
     "eslint-config-airbnb": "^6.1.0",
     "tape-promise": "^1.0.1"
+  },
+  "dependencies": {
+    "babel-plugin-transform-es2015-parameters": "^6.7.0"
   }
 }
