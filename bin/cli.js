@@ -3,7 +3,7 @@
 
 'use strict';
 
-import { yargs as args } from 'yargs';
+import cli from 'yargs';
 import promisify from 'promisify-lite';
 import fs from 'graceful-fs';
 import path from 'path';
@@ -38,7 +38,12 @@ const getVersion = async () => {
   return VERSION;
 };
 
+const setupCLI = async () => {
+  // cli arguments setup
+};
+
 const init = async () => {
+  setupCLI();
 };
 
 init();
