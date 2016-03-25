@@ -14,6 +14,7 @@ import appRoot from 'app-root-path';
 const fsp = promisify(fs);
 
 const log = log4js.getLogger('CLI LOGGER');
+log.setLevel('WARN');
 
 const getPackageFile = () => {
   const PACKAGE_PATH = path.resolve(`${appRoot}/package.json`);
