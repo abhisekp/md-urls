@@ -11,18 +11,13 @@ testp.createStream()
      .pipe(process.stdout);
 
 const delay = (time = 5000) => new Promise((resolve, reject) => {
-  // setTimeout(() => resolve('Success is at your feet'), time);
+  setTimeout(() => resolve('Success is at your feet'), time);
   setTimeout(() => reject(Error('BIG FAIL!!!')), time + 2000);
 });
 
 testp('Hello', async (t) => {
-  try {
     t.pass(await delay());
-  } catch (e) {
-    t.error(e, e.message);
-  } finally {
     t.end();
-  }
 });
 
 test('Test Successful', (t) => {
