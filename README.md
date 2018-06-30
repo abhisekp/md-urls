@@ -1,6 +1,8 @@
 <a name="app-top" id="app-top"></a>
 # Markdown URLs &mdash; md-urls
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/abhisekp/md-urls.svg)](https://greenkeeper.io/)
+
 Replace relative links in markdown file with absolute urls based on a base url.
 
 # Coming Soon
