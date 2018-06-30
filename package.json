@@ -35,7 +35,7 @@
   "author": "Abhisek Pattnaik <abhisekp@engineer.com> (http://about.me/abhisekp)",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^2.4.0",
-    "eslint-config-airbnb": "^6.1.0"
+    "eslint": "^5.0.1",
+    "eslint-config-airbnb": "^17.0.0"
   }
 }
